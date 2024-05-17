@@ -1,0 +1,115 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    /* Navigation Bar */
+    nav .offcanvas{
+        background-color: #fff !important; 
+    }
+    nav .offcanvas ul{
+        margin-right:100%;
+    }
+    nav .offcanvas ul li{
+        padding:10px 0px 0px 20px;
+    }
+    nav .offcanvas ul li a{
+        color: #4e4e4e !important;
+    }
+    .deep-drop:hover .deep-drop-menu{
+        bottom:3px;
+    }
+    /* Home Section */
+    #home .home-content h1{
+        font-size:50px;
+    }
+    #home .home-content span{
+        font-size:10px;
+    }
+    /* Mid Section */
+    .mid-sec{
+        height: 100vh;
+    }
+    /* Carousel */
+    #car .carousel-inner .carousel-item .content{
+        width:100%;
+    }
+    /* Contact Section */
+    #contact .contact-left form .submit-btn{
+        width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    /* Navigation Bar */
+    nav .offcanvas{
+        background-color: #fff !important; 
+    }
+    nav .offcanvas ul{
+        margin-right:100%;
+    }
+    nav .offcanvas ul li{
+        padding:10px 0px 0px 20px;
+    }
+    nav .offcanvas ul li a{
+        color: #4e4e4e !important;
+    }
+    .deep-drop:hover .deep-drop-menu{
+        bottom:3px;
+    }
+    /* About Section */
+    .progrs-content{
+        width:100%;
+    }
+    /* Carousel */
+    #car .carousel-inner .carousel-item .content{
+        width:500px;
+    }
+    /* Contact Section */
+    #contact .contact-left form .submit-btn{
+        width: 40%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* Carousel */
+    #car .carousel-inner .carousel-item .content{
+        width:80%;
+    }
+    /* Contact Section */
+    #contact{
+        height:110vh
+    }
+    #contact .contact-left form .submit-btn{
+        width: 60%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Navigation Bar */
+    nav .offcanvas ul{
+        margin-right:0px;
+        margin-top:-50px
+    }
+    nav .offcanvas ul li{
+        padding:3px 10px 0px;
+    }
+    nav .offcanvas ul li a{
+        color: #fff !important;
+    }
+    /* Carousel Section */
+    #car .carousel-inner .carousel-item .content{
+        width:70%;
+    }
+    #contact .contact-left form .submit-btn{
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Contact Section */
+    #contact .contact-left form .submit-btn{
+        width: 30%;
+    }
+}

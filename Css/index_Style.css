@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+  --main-color:#0078FF;
+}
+body{
+  font-family: system-ui;
+  background-color: #F5F5F5;
+}
+a{
+  text-decoration: none;
+}
+.sec-head{
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+}
+textarea{
+  resize: none;
+}
+/* Fixed */
+.up-btn{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--main-color);
+  position: fixed;
+  z-index: 100;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Navigation Bar */
+.navbar{
+  background-color: rgba(4, 4, 4, 0.9);
+}
+.offcanvas{
+  height:90%;
+  width: 90% !important;
+  margin: 50px 20px 0px;
+}
+.navbar .nav-item a{
+  color: #fff;
+  position: relative;
+  transition:0.5s;
+  text-transform: uppercase;
+}
+.navbar .nav-item a:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0px;
+  left: 8px;
+  width: 0;
+  background-color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.navbar-nav .nav-link.active::before{
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0px;
+  left: 8px;
+  width: 80%;
+  background-color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color:#fff;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a:before{
+  width:80%
+}
+
+/* Home Section */
+header{
+  height: 100vh;
+}
+header .home-content h1{
+  font-size: 72px;
+  padding-block: 10px;
+}
